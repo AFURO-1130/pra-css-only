@@ -185,3 +185,22 @@ input ,textarea{
     font-size: 14px;
     color: white;
 }
+/*ハンバーガー*/
+.open,.close{
+    display: none;
+}
+#header input{
+    position: absolute;
+    left: 300px;
+    display: none;
+}
+#header img{
+    background-color: white;
+}
+body{
+    margin:0;
+}
+label {
+    display: flex;
+    justify-content: right;
+}

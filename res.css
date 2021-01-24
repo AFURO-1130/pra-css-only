@@ -109,6 +109,34 @@
         width: 100%;
         max-width: 345px;
     }
+
+
+
+    /* ハンバーガー*/
+    .hr-list{
+        display: none;
+    }
+    .open,.close{
+        display: inline-table;
+        color: white;
+        display: block;
+        justify-content: right;
+    }
+    input[type="checkbox"]:checked ~ ul{
+        position: absolute;
+        height: 100%;
+        
+        width: 100%;
+        color: white;
+     }
+     input[type="checkbox"]:checked ~ .close{
+         position: absolute;
+         left: -400px;
+     }
+     input[type="checkbox"]:checked ~ label{
+         position: absolute;
+         left: 0px;
+     }
 }
 
 @media screen and (max-width: 330px){
