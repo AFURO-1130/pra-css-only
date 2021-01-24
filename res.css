@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+
+
+/*タブレット */
+@media screen and (max-width: 1100px){
+    .box1 h2{
+        white-space: nowrap;
+    }
+    #about{
+        width: 100%;
+        max-width: 800px;
+    }
+    #service{
+        width: 100%;
+        max-width: 800px;
+        margin:0 auto;
+    }
+    #news{
+        width: 100%;
+        max-width: 800px;
+        margin:0 auto;
+    }
+    #contact{
+        width: 100%;
+        max-width: 800px;
+    }
+    
+    
+
+
+}
+
+
+
+
+
+/*スマホ*/
+
+@media screen and (max-width: 780px){
+    #about{
+        width: 100%;
+        max-width: 345px;
+    }
+    #service{
+        width: 100%;
+        max-width: 345px;
+        margin: 0 auto;
+    }
+    #news{
+        width: 100%;
+        max-width: 345px;
+        margin:0 auto;
+    }
+    #contact{
+        width: 100%;
+        max-width: 345px;
+    }
+    .box1 img{
+        height: 590px;
+    }
+    .hr-list li{
+        margin: none;
+    }
+    .hr-logo{
+        white-space: nowrap;
+    }
+    .box1 h2{
+        white-space: nowrap;
+        font-size: 30px;
+        padding: 25px;
+    }
+    .sr-up{
+        display: flex;
+        flex-direction: column-reverse;
+        margin:0 auto;
+        }
+        .up-img{
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .up-img img{
+            margin: 0;
+            width: 100%;
+        }
+    .sr-down{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0 auto;
+    }
+    .down-img img{
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+    #card{
+        display: flex;
+        flex-direction: column;
+        margin:0 auto;
+    }
+    .card{
+        width: 100%;
+        margin: 50px 0;
+    }
+    .ct-title{
+        margin: 100px 0;
+    }
+    .from input{
+        width: 100%;
+        max-width: 345px;
+    }
+}
+
+@media screen and (max-width: 330px){
+    .from input,textarea{
+        width: 100%;
+        max-width: 285px;
+    }
+
+    #about{
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #service{
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #news{
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #contact{
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
