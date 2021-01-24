@@ -114,28 +114,39 @@
 
     /* ハンバーガー*/
     .hr-list{
-        display: none;
+       position: absolute;
+       left: -400px;
+
     }
     .open,.close{
         display: inline-table;
         color: white;
-        display: block;
-        justify-content: right;
     }
-    input[type="checkbox"]:checked ~ ul{
+    input[type="checkbox"]:checked ~ .hr-list li{
         position: absolute;
-        height: 100%;
-        
-        width: 100%;
+        left: 300px;
         color: white;
      }
      input[type="checkbox"]:checked ~ .close{
          position: absolute;
-         left: -400px;
+         left: 90%;
+         top: 2%;
+         width: 30px;
+         height: 30px;
+
      }
      input[type="checkbox"]:checked ~ label{
          position: absolute;
-         left: 0px;
+         left: -200px;
+         top: 10%;
+         
+     }
+     #header img{
+         position: absolute;
+         left: 87%;
+         top: 1.5%;
+         width: 30px;
+         height: 30px;
      }
 }
 
